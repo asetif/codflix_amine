@@ -13,10 +13,17 @@
  The CLI uses Docker APIs to control or interact with the Docker daemon through scripting or direct CLI commands. 
  Many other Docker applications use the underlying API and CLI. 
  The daemon creates and manage Docker objects, such as images, containers, networks, and volumes.
- 
-### import simple data
+
+### import sample data
 1: install docker & docker-compose
+
 2: download project (clone it)
+
 3: execute this command line : docker-compose up &
-3: import codflix sql init script :
-   sudo docker exec -i codflix_amine_db_1 mysql -ucodflix -pcodflix codflix < /Users/amineamara/Downloads/codflix_amine/codflix.sql 
+
+4: import codflix sql init script :
+          sudo docker exec -i ec-code-2020-codflix-java-master_db_1 mysql -ucodflix -pcodflix codflix < /Users/amineamara/Downloads/codflix_aminec/codflix.sql 
+
+### import sample data
+import codflix sample Data script :
+   sudo docker exec -i ec-code-2020-codflix-java-master_db_1 mysql -ucodflix -pcodflix codflix < /Users/amineamara/Downloads/codflix_amine/sampleData_codflix.sql
