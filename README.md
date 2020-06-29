@@ -43,6 +43,7 @@ You must have a running MySQL service on your development machine. Cod'Flix has 
 The resulting configuration should look like this:
 ![](screenshots/run_database_configuration.png)
 
+
 ### Expected run behavior
 When the server is properly running, you should see the following logs:
 ```
